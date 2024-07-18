@@ -1,12 +1,12 @@
 ##########################################################
-#  // pingcheck.ps1	by Chase Timmons		 			#
-#  //                                           		#
-#  //  	 	                                            #
+#  // pingcheck.ps1	by Chase Timmons		 #
+#  //                                           	 #
+#  //  	 	                                         #
 ##########################################################
 
 # List of Addresses by Name/IP	  
 $items = @(
-    [pscustomobject]@{Name="Location1";IP="1.1.1.1"}
+	[pscustomobject]@{Name="Location1";IP="1.1.1.1"}
 	[pscustomobject]@{Name="Location2";IP="1.1.1.2"}
 	[pscustomobject]@{Name="Location3";IP="1.1.1.3"}
 )
