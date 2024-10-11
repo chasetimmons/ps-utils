@@ -1,7 +1,7 @@
 ##########################################################
-#  // pingcheck.ps1	by Chase Timmons		 #
+#  // pingcheck.ps1 by Chase Timmons		         #
 #  // Ping a list of addresses to test connectivity      #
-#  //  	 	                                         #
+#  // Created: 08/17/2020                                #
 ##########################################################
 
 # List of addresses by name/IP
@@ -24,7 +24,9 @@ Get-Date
 "================================================"
 
 # Loop through addresses and ping them once
-# Incread -Count for additional pings
+# Increase -Count for additional pings
+# If ping is successfull, name and IP will print in GREEN
+# Otherwise, name and IP will print in RED (failure)
 foreach ($i in $items)
 {
 	$count += 1
